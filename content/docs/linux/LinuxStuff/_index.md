@@ -3,4 +3,4 @@ title: Linux Stuff
 weight: 20
 ---
 
-# Linux Stuff
+# Commands to help with Linux
