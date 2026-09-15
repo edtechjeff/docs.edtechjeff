@@ -61,11 +61,6 @@ jobs:
 
           sudo dpkg -i ${{ runner.temp }}/hugo.deb
 
-      # Download Hugo modules, including Hextra
-      - name: Download Hugo Modules
-        run: |
-          hugo mod download
-
       # Build the website
       - name: Build Hugo Site
         env:
