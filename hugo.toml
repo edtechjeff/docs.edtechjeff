@@ -1,0 +1,31 @@
+baseURL = "https://docs.edtechjeff.com/"
+title = "EdTechJeff Docs"
+
+[module]
+  [[module.imports]]
+    path = "github.com/imfing/hextra"
+
+[params]
+  description = "Technical documentation, guides, and lab notes"
+
+  [params.navbar]
+    displayTitle = true
+    displayLogo = false
+
+  [params.footer]
+    displayCopyright = true
+    displayPoweredBy = true
+
+[menu]
+
+  [[menu.main]]
+    name = "Documentation"
+    pageRef = "/docs"
+    weight = 1
+
+  [[menu.main]]
+    name = "Search"
+    weight = 2
+
+    [menu.main.params]
+      type = "search"

@@ -1,0 +1,5 @@
+module github.com/edtechjeff/docs.edtechjeff
+
+go 1.27.0
+
+require github.com/imfing/hextra v0.12.3 // indirect
